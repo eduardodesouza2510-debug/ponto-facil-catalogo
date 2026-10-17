@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ponto-facil-catalogo
+    runtime: static
+    buildCommand: echo "Publicando catalogo Ponto Facil"
+    staticPublishPath: ./site
+    autoDeployTrigger: commit
